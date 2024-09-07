@@ -1,0 +1,92 @@
+body{
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: #fff;
+    font-size: 17px;
+    color: gray;
+    /* font-weight: 400px; */
+    line-height: 1.8;
+    
+}
+.container{
+    width: 75%;
+    max-width: 1200px;
+    margin-inline: auto;
+    margin-top: 20px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.boxes{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 1.5;
+    margin-top: 0;
+    font-family: "Lora", serif;;
+} 
+h3{
+    color: #000;
+    font-family: "Lora", serif;;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 500;
+}
+header p{
+    color: #ff7a5c;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.box{
+    
+    width: calc(100%/3);
+   padding: 15px;
+}
+.date{
+    width: 100px;
+    height: 100px;
+    background-color: #f5f4f0;
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -70px;
+    
+
+}
+.date span{
+    display: block;
+    line-height: 1.2;
+}
+.date .day{
+    font-weight: 700;
+    color: #95adbe;
+    font-size: 30px;
+    font-family: "Lora", serif;
+}
+.date .month{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: block;
+    
+
+}

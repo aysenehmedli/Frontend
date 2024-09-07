@@ -1,0 +1,111 @@
+@media screen and (max-width: 768px) {
+    .scoot-info {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header {
+        padding-left: 40px;
+        margin-bottom: 40px;
+    }
+
+    .path2 {
+        display: none;
+    }
+
+    .slider-button {
+        display: none;
+    }
+
+    .group-img {
+        width: 100% !important;
+    }
+
+    .info-box {
+        border-top: none !important;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .info-box h3 {
+        text-align: center !important;
+    }
+
+    .info-box p {
+        text-align: center !important;
+    }
+
+    .about-us img {
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 100px;   
+        align-items: center;
+    }
+
+    .footer-info {
+        padding: 30px !important ;
+        text-align: center;
+    }
+
+    .first-text p {
+        text-align: center;
+    }
+
+    .logo2 {
+        text-align: center;
+
+    }
+
+    .end ul {
+        display: block !important;
+        text-align: center;
+    }
+
+    .end ul li {
+        margin-bottom: 10px;
+    }
+
+   
+
+    .header {
+        margin-left: 0px !important;
+    }
+  
+    .first-text{
+        font-size: 26px !important;
+    }
+    .moto-info{
+        margin-top: 260px !important;
+    }
+    .absolut{
+        display: none;
+    }
+    .job{
+        display: block !important;
+        text-align: center;
+    }
+    .apply-btn{
+        width: 100%;
+    }
+    .loc-text{
+        display: block !important;
+        p{
+            margin-inline: 0 !important;
+        }
+    }
+}
+@media screen and (max-width: 992px){
+    .about-us:nth-child(3) {
+        margin-top: 200px !important;
+        margin-bottom: 250px;
+    }
+    .about-us:nth-child(1){
+        margin-top: 0px !important;
+    }
+    
+    .about-us{
+        flex-wrap: wrap !important;
+    }
+}
